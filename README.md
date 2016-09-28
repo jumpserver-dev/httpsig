@@ -1,11 +1,11 @@
 # httpsig
 
-httpsig is a go package with for [HTTP Signature](https://tools.ietf.org/html/draft-cavage-http-signatures-05). It also implements [extensions](https://tools.ietf.org/html/draft-cavage-http-signatures-05#appendix-B) to the standard, as LeisureLink uses an anticipated jwt extension.
+httpsig is a go package with for [HTTP Signature](https://tools.ietf.org/html/draft-cavage-http-signatures-05). It also implements [extensions](https://tools.ietf.org/html/draft-cavage-http-signatures-05#appendix-B) to the standard.
 
 ## Usage
 
 ```go
-import "gopkg.in/LeisureLink/httpsig.v1"
+import "gopkg.in/twindagger/httpsig.v1"
 ```
 
 ### Client
@@ -49,7 +49,7 @@ func main() {
 
 ## Installation
 
-    go get gopkg.in/LeisureLink/httpsig.v1
+    go get gopkg.in/twindagger/httpsig.v1
 
 ## License
 
